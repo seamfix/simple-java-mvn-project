@@ -2,4 +2,6 @@ sonar.projectKey=seamfix_simple-java-mvn-project
 sonar.projectName=seamfix
 sonar.sources=src/main/java/
 sonar.language=java
-sonar.java.binaries=**/target/classes
+sonar.java.binaries=target/classes
+sonar.java.coveragePlugin=jacoco
+sonar.tests=src/test/java/tool/
